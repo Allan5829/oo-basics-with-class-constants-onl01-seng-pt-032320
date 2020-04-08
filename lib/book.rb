@@ -6,7 +6,6 @@ class Book
   
   def genre= (genre)
     @genre = genre
-    if !(GENRES.include? (@genre))
       GENRES << @genre
     end
   end 
